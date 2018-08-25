@@ -1,11 +1,21 @@
-body {
-    background-color: green;
+body,html {
+    height: 100%;
+    font-size: 30px;
+    text-align: center;
+    background-image: linear-gradient(#bdffd3, #ff7bfe);
 }
 
 div {
-    background-color: lightblue;
+    max-width: 500px;
+    height: 100px;
 }
 
 p {
-    background-color: yellow;
+
+    font-size: 14px;
 }
+
+h1 {
+    text-align: center;
+}
+
