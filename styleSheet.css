@@ -1,8 +1,12 @@
-body,html {
-    height: 100%;
+body {
+
     font-size: 30px;
     text-align: center;
+}
+
+html {
     background-image: linear-gradient(#bdffd3, #ff7bfe);
+    height: max-content;
 }
 
 div {
@@ -11,8 +15,15 @@ div {
 }
 
 p {
+    text-align: left;
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration-color: #491217;
+}
 
-    font-size: 14px;
+p1 {
+    text-align: left;
+    font-size: 22px;
 }
 
 h1 {
