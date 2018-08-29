@@ -1,5 +1,6 @@
 .row {
   display: flex;
+    padding: auto;
 }
 
 .column {
@@ -11,19 +12,22 @@ body {
     color: #bdffd3;
     font-size: 30px;
     text-align: center;
-    padding:0; margin:0;
+    padding:0;
+    margin:0;
 }
 
 * {
     padding:0;
     margin:0;
+    bottom: auto;
 }
 
 html {
     background-image: linear-gradient(#3e5888, #665db9);
     height: max-content;
-    border: none;
-    padding:0; margin:0;
+    border-bottom: none;
+    padding:0;
+    margin:0;
 }
 
 div {
@@ -33,14 +37,8 @@ div {
 
 p {
     text-align: left;
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 35px;
     text-decoration-color: #491217;
-}
-
-p1 {
-    text-align: center;
-    font-size: 24px;
 }
 
 h1 {
@@ -50,13 +48,8 @@ h1 {
 
 ul {
     list-style-type: none;
-    /*margin: 0;*/
-    /*padding: 0;*/
     overflow: hidden;
-    /*background-color: #665db9;*/
-    /*width: 100%;*/
     display: inline-block;
-    /*list-style-type: none;*/
     text-align: center;
 }
 
@@ -75,7 +68,6 @@ li a {
     text-decoration: #665db9;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #3e5888;
 }

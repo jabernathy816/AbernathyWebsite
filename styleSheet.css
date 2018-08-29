@@ -31,11 +31,6 @@ p {
     text-decoration-color: #491217;
 }
 
-/*p1 {*/
-    /*text-align: center;*/
-    /*font-size: 24px;*/
-/*}*/
-
 h1 {
     text-align: center;
     color: #85d2a3;
@@ -43,13 +38,8 @@ h1 {
 
 ul {
     list-style-type: none;
-    /*margin: 0;*/
-    /*padding: 0;*/
     overflow: hidden;
-    /*background-color: #665db9;*/
-    /*width: 100%;*/
     display: inline-block;
-    /*list-style-type: none;*/
     text-align: center;
 }
 
